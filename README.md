@@ -1,22 +1,16 @@
 # nodeJS
-## Udemy NodeJS - 'Complete' Guide
-All images for learning purposes only, credit of ACADEMIND
-
-If in violation of usage rules, send notice to fmiusov88@gmail.com
-
----
-
-## Understanding Node in Context
-
-![nodeJS-Server-Diagram](screenshots/nodejsServerDiagram.png)
-![nodeJS-Web-Development-Diagram](screenshots/nodejsWebDev.png)
 
 ## REPL 
 
 This is the live terminal interface of NodeJS, similar to python's command line utility
 
-![nodeJS-REPL-Diagram](screenshots/REPL.png)
+**R**ead user input
 
+**E**val user input
+
+**P**rint output (result)
+
+**L**oop to wait for new input
 ___
 
 ## OOP Review
