@@ -1,5 +1,26 @@
 # nodeJS
 
+## Templating Engines
+### **EJS**
+
+\<p><%= name %>\</p>
+
+Use normal HTML and vanilla JS 
+
+### **Pug**
+
+p #{name}
+
+Use minimal HTML and custom template language
+
+### **Handlebars**
+
+\<p>{{ name }}\</p>
+
+Use normal HTML and custom template language
+
+___
+
 ## REPL 
 
 This is the live terminal interface of NodeJS, similar to python's command line utility
