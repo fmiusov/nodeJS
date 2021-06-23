@@ -50,12 +50,12 @@ ___
 
 **Models**
 
-Objects that represent data in the code. Primarily works with data (saving, fetching, etc.)
+Objects that represent data in the code. Primarily works with data (saving, fetching, etc.) Doesn't matter if you manage data in memory, files, databases. Contains data-related logic.
 
 **Views**
 
-What the user sees, dynamically rendering appropriate content. Decoupled from application code. 
+What the user sees, dynamically rendering appropriate content. Decoupled from application code. Shouldn't contain too much logic.
 
 **Controllers**
 
-Connecting Models and Views; split up across middleware functions. Contains the 'in-between' logic. Routes are tangential to controllers, as they handle which controllers execute in which scenario. 
+Connecting Models and Views; split up across middleware functions. Contains the 'in-between' logic. Routes are tangential to controllers, as they handle which controllers execute in which scenario. Should only make sure that the two can communicate (in both directions).
