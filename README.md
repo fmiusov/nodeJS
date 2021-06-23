@@ -43,3 +43,19 @@ ___
 **Reference Values** - Object -> Array. *STORED IN HEAP*, therefore more dynamic in its value, easily modified. Stored randomly with each element having unique address. Pointers in the stack store the 'address' where that element is stored. The variable simply refers to the pointer's position in the stack, NOT the address of the element in the heap.
 
 **In Summary** - to modify a reference value is to modify its pointer rather than the element in the heap. To modify a primitive is to modify the element itself.
+
+___
+
+## MVC
+
+**Models**
+
+Objects that represent data in the code. Primarily works with data (saving, fetching, etc.)
+
+**Views**
+
+What the user sees, dynamically rendering appropriate content. Decoupled from application code. 
+
+**Controllers**
+
+Connecting Models and Views; split up across middleware functions. Contains the 'in-between' logic. Routes are tangential to controllers, as they handle which controllers execute in which scenario. 
