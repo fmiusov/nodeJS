@@ -1,6 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
+const getProductsFromFile = () => {
+    
+}
+
 module.exports = class Product {
   constructor(t) {
     this.title = t;
