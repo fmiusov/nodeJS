@@ -1,1 +1,6 @@
-[{"title":"hello"},{"title":"another one"},{"title":"in action"},{"title":"{TSNr[1]}"}]
+[
+  { "title": "hello" },
+  { "title": "another one" },
+  { "title": "in action" },
+  { "title": "{TSNr[1]}" }
+]
