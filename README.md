@@ -53,3 +53,11 @@ ___
 **Views** - What the user sees, dynamically rendering appropriate content. Decoupled from application code. Shouldn't contain too much logic.
 
 **Controllers** - Connecting Models and Views; split up across middleware functions. Contains the 'in-between' logic. Routes are tangential to controllers, as they handle which controllers execute in which scenario. Should only make sure that the two can communicate (in both directions).
+
+___
+
+## Dynamic Routing
+
+- You can pass dynamic path segments by adding a ":" to the Express router path
+- The name you add after ":" is the name by which you can extract the data on req.params
+- Optional (query) parameters can also be passed (?param=value&b=2) and extracted (req.query.myParam)
