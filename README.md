@@ -61,3 +61,9 @@ ___
 - You can pass dynamic path segments by adding a ":" to the Express router path
 - The name you add after ":" is the name by which you can extract the data on req.params
 - Optional (query) parameters can also be passed (?param=value&b=2) and extracted (req.query.myParam)
+
+___
+
+## Sequelize Deprecation
+
+- findbyId() is deprecated and needs to be replaced with findByPk()
